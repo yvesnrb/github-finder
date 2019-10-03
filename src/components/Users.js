@@ -22,7 +22,7 @@ const Users = () => {
 
 const componentStyle = {
   display: "grid",
-  gridTemplateColumns: "repeat(3, 1fr)",
+  gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
   gridGap: "1rem"
 };
 
